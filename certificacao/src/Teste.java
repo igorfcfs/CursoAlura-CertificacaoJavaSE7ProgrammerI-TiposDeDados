@@ -1,6 +1,6 @@
 class Motor{
 }
-class Carro {
+class Car {
 	int ano;
 	char primeiraLetra;
 	boolean usado;
@@ -73,7 +73,7 @@ public class Teste {
 		String[] valorestext = new String[10];
 		System.out.println(valorestext[0]);
 		
-		Carro carro = new Carro();
+		Car carro = new Car();
 		System.out.println(carro.ano);
 		System.out.println(carro.primeiraLetra == 0); System.out.println(carro.primeiraLetra);
 		System.out.println(carro.usado);
